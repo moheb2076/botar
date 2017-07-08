@@ -1,4 +1,4 @@
---Begin msg_checks.lua By @TH3BOSS
+--Begin msg_checks.lua By @abd2076
 local TIME_CHECK = 2
 local function pre_process(msg)
 local data = load_data(_config.moderation.data)
@@ -424,9 +424,9 @@ else
    del_msg(chat, msg.id)
     kick_user(user, chat)
    if not lang then
-  tdcli.sendMessage(chat, msg.id, 0, "📌 _User_ : "..user_name.."\n 📌 _ID_ : `["..user.."]` \n📌 _kicked out becouse he flooding ☑️_\n 📌 مـطـور الـسـورس : الزعـيـم > @TH3BOSS", 0, "md")
+  tdcli.sendMessage(chat, msg.id, 0, "📌 _User_ : "..user_name.."\n 📌 _ID_ : `["..user.."]` \n📌 _kicked out becouse he flooding ☑️_\n 📌 مـطـور الـسـورس : الزعـيـم > @abd2076", 0, "md")
    elseif lang then
-  tdcli.sendMessage(chat, msg.id, 0, "_📌 العضو_ :  "..user_name.."\n _📌الايدي_ : `["..user.."]`\n _📌 عذرا ممنوع التكرار في هذه المجموعه لقد تم طردك ☑️_\n 📌 مـطـور الـسـورس : الزعـيـم > @TH3BOSS", 0, "md")
+  tdcli.sendMessage(chat, msg.id, 0, "_📌 العضو_ :  "..user_name.."\n _📌الايدي_ : `["..user.."]`\n _📌 عذرا ممنوع التكرار في هذه المجموعه لقد تم طردك ☑️_\n 📌 مـطـور الـسـورس : الزعـيـم > @abd2076", 0, "md")
     end
 redis:setex('sender:'..user..':flood', 30, true)
       end
