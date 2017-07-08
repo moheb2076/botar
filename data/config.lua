@@ -19,7 +19,7 @@ do local _ = {
     "fun",
     "q"
   },
-  info_text = "🎗للتحدث مع المطورين راسل احدهم🎗 \n ▫️➖▫️➖▫️➖▫️➖▫️➖▫️ \n 🎗 1. @almoiad  \n 🎗2. @Medal7  \n 🎗3. @yamama3  \n 🎗4. @abd2076 \n 🎗5.@Sufyanx88 \n ▫️➖▫️➖▫️➖▫️➖▫️➖▫️ \n تابع قنات البوت :@botdiamond ",
+  info_text = "🎗فريق العمل🎗 \n ▫️➖▫️➖▫️➖▫️➖▫️➖▫️ \n 🎗 1. @almoiad  \n 🎗2. @Medal7  \n 🎗3. @yamama3  \n 🎗4. @abd2076 \n 🎗5.@Sufyanx88 \n ▫️➖▫️➖▫️➖▫️➖▫️➖▫️ \n تابع قنات البوت :@botdiamond ",
   moderation = {
     data = "./data/moderation.json"
   },
