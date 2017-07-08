@@ -8,16 +8,29 @@ do local _ = {
     "plugins",
     "tools",
     "me",
-    "addreplay",
-    "deleall"
+    "deleall",
+    "azan",
+    "mute-time",
+    "del",
+    "tr",
+    "n",
+    "m",
+    "h",
+    "fun",
+    "q"
   },
-  info_text = "📌¦ Welcome My Dear\n\nTH3BOSS V14 \nFor More Information Subscribe To The Channel @llDEV1ll \n https://github.com/moody2020/TH3BOSS\n\n📌¦ Dev @TH3BOSS\n\n📌¦ Dev Bot @ll60Kllbot\n\n📌¦ Channel @llDEV1ll ",
+  info_text = "🎗للتحدث مع المطورين راسل احدهم🎗 \n ▫️➖▫️➖▫️➖▫️➖▫️➖▫️ \n 🎗 1. @almoiad  \n 🎗2. @Medal7  \n 🎗3. @yamama3  \n 🎗4. @abd2076 \n 🎗5.@Sufyanx88 \n ▫️➖▫️➖▫️➖▫️➖▫️➖▫️ \n تابع قنات البوت :@botdiamond ",
   moderation = {
     data = "./data/moderation.json"
   },
   sudo_users = {
-    60809019,
-      359265489,
+    127952353,
+    168991424,
+    300260349,
+    87567415,
+    133745245,
+    308374157,
+    331040813
   }
 }
 return _
